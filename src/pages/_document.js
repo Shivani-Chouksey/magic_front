@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { ToastContainer } from "react-toastify";
+
 
 export default function Document() {
   return (
@@ -8,7 +8,7 @@ export default function Document() {
       <body className="antialiased">
         <Main />
         <NextScript />
-      <ToastContainer/>
+     
       </body>
     </Html>
   );
